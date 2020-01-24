@@ -1,10 +1,11 @@
+# 导入cv2模块
 import cv2
 # 输入图片路径
-SRC = "image_name"
+SRC = input("Please input image's path:")
 img_rgb = cv2.imread(SRC)
 
-# 原图
-# cv2.imshow('rbg', img_rbg)
+# 读取原图
+# cv2.imshow('rbg', img_rgb)
 # cv2.waitKey(0)
 # exit()
 
